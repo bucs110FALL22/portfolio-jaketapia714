@@ -18,7 +18,7 @@ for i in range(4):
 
 jake.up()
 jake.color("red")
-jake.fd(length)
+jake.fd(length*3)
 jake.down()
 for i in range(4):
   jake.fd(length)
