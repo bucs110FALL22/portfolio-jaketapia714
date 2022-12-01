@@ -18,7 +18,7 @@ def vowels(self):
       return "many"
 
       
-  def bothEnds(self): 
+def bothEnds(self): 
       length = len(self.string)
       if length > 0:
         return f"{self.string[0]}{self.string[1]}{self.string[length-2]}{self.string[length-1]}"
